@@ -1,3 +1,3 @@
 # Colors
 
-![Colors](Colors/Colors_TableView.png)
+![Colors](Colors_TableView.png)
