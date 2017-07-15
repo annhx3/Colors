@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D59750E61F19A4CB00FA23F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59750E51F19A4CB00FA23F3 /* AppDelegate.swift */; };
-		D59750E81F19A4CB00FA23F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59750E71F19A4CB00FA23F3 /* ViewController.swift */; };
 		D59750EB1F19A4CB00FA23F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59750E91F19A4CB00FA23F3 /* Main.storyboard */; };
 		D59750EE1F19A4CB00FA23F3 /* Colors.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D59750EC1F19A4CB00FA23F3 /* Colors.xcdatamodeld */; };
 		D59750F01F19A4CB00FA23F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59750EF1F19A4CB00FA23F3 /* Assets.xcassets */; };
 		D59750F31F19A4CB00FA23F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59750F11F19A4CB00FA23F3 /* LaunchScreen.storyboard */; };
 		D59750FE1F19A4CB00FA23F3 /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59750FD1F19A4CB00FA23F3 /* ColorsTests.swift */; };
 		D59751091F19A4CB00FA23F3 /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59751081F19A4CB00FA23F3 /* ColorsUITests.swift */; };
+		D59751171F19A54000FA23F3 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59751161F19A54000FA23F3 /* ColorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		D59750E21F19A4CB00FA23F3 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59750E51F19A4CB00FA23F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D59750E71F19A4CB00FA23F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D59750EA1F19A4CB00FA23F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D59750ED1F19A4CB00FA23F3 /* Colors.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Colors.xcdatamodel; sourceTree = "<group>"; };
 		D59750EF1F19A4CB00FA23F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		D59751041F19A4CB00FA23F3 /* ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59751081F19A4CB00FA23F3 /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		D597510A1F19A4CB00FA23F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59751161F19A54000FA23F3 /* ColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				D59750E51F19A4CB00FA23F3 /* AppDelegate.swift */,
-				D59750E71F19A4CB00FA23F3 /* ViewController.swift */,
+				D59751161F19A54000FA23F3 /* ColorsViewController.swift */,
 				D59750E91F19A4CB00FA23F3 /* Main.storyboard */,
 				D59750EF1F19A4CB00FA23F3 /* Assets.xcassets */,
 				D59750F11F19A4CB00FA23F3 /* LaunchScreen.storyboard */,
@@ -266,7 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D59750EE1F19A4CB00FA23F3 /* Colors.xcdatamodeld in Sources */,
-				D59750E81F19A4CB00FA23F3 /* ViewController.swift in Sources */,
+				D59751171F19A54000FA23F3 /* ColorsViewController.swift in Sources */,
 				D59750E61F19A4CB00FA23F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
